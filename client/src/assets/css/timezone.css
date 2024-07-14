@@ -78,3 +78,140 @@
     color: white;
 }
 
+.calendar-box {
+    border-radius: 0 1vh 1vh 0;
+    border: 0.5px solid gray;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 5vw;
+    background: rgba(128, 128, 128, 0.338);
+    font-size: 1.3rem;
+    color: rgb(37, 156, 174);
+}
+
+.filter-container {
+    border: 1px solid gray;
+    border-radius: 1vh;
+    width: 25vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(37, 156, 174);
+}
+
+.filter-container div {
+    flex: 1;
+    height: 100%;
+    border-left: 1px solid gray;
+    display: grid;
+    place-items: center;
+    transition: all ease 0.5s;
+}
+
+.filter-container div:hover {
+    background-color: rgba(61, 194, 214, 0.731);
+    color: rgb(206, 204, 204);
+}
+
+.time-converter {
+    padding: 1vh 1vw;
+    /* background-color: #f5f5f5; */
+}
+
+.zone-container {
+    position: relative;
+    border: 1px solid rgb(179, 216, 241);
+    background-color: #d7eef5;
+    border-radius: 20px;
+    height: 26vh;
+    margin-bottom: 2vh;
+    padding-inline: 0.5vw;
+}
+
+#dark-zone-container {
+    background-color: #2c2f34;
+    color: #f7f4f4;
+}
+
+.zone-upper-row {
+    height: 55%;
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+}
+
+.time-slider {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.labels {
+    width: 100%;
+    height: 2vh;
+    margin-top: -2vh;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+
+
+.select {
+    width: 100px;
+}
+
+.drag-handle {
+    cursor: grab;
+    user-select: none;
+}
+
+
+.drag-button {
+    color: rgb(113, 52, 255);
+    display: flex;
+    flex-direction: column;
+    cursor: grab;
+}
+
+.zone-left-box {
+    color: rgb(0, 0, 0);
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.zone-left-box h2 {
+    color: rgb(0, 0, 0);
+}
+
+.zone-right-box {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.zone-right-box span {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.805);
+}
+
+.remove {
+    position: absolute;
+    right: 1vw;
+    top: 0.5vh;
+    font-size: 28px;
+    color: rgb(250, 40, 40);
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
