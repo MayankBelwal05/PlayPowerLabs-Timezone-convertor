@@ -27,14 +27,6 @@ const generateInitialTimezones = () => ({
 
 function generateSliderMarks() {
     const marks = [];
-    const numMarks = 25;
-
-    const markSpacing = 1440 / (numMarks - 1);
-    for (let i = 0; i < numMarks; i++) {
-        const markPosition = i * markSpacing;
-        marks.push(markPosition);
-    }
-
     return marks;
 }
 

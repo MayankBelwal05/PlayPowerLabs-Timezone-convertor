@@ -172,22 +172,14 @@
 }
 
 .time-track {
-    background: linear-gradient(to right, #479dff 0%, #ccf1f0 60%, #3f91f0 100%);
+    background-color: rgb(87, 87, 202);
     height: 3.5vh;
     border-radius: 0.5vh;
 }
 
 .dark-time-track {
-    background: linear-gradient(to right, #c0ff84 0%, #82ff48 10%);
+    background-color: greenyellow;
 }
-
-.time-mark {
-    background-color: rgb(175, 159, 159);
-    font-size: 10px;
-    height: 10px;
-    width: 2px;
-}
-
 
 .select {
     width: 100px;
@@ -197,7 +189,6 @@
     cursor: grab;
     user-select: none;
 }
-
 
 .drag-button {
     color: rgb(113, 52, 255);
