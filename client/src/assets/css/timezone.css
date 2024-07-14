@@ -160,6 +160,34 @@
     color: rgb(0, 0, 0);
 }
 
+.time-thumb {
+    border: 1px solid rgb(104, 104, 104);
+    color: rgb(158, 157, 157);
+    border-radius: 8px;
+    background: #f7f4f4;
+    height: 30px;
+    width: 35px;
+    cursor: grab;
+    outline: none;
+}
+
+.time-track {
+    background: linear-gradient(to right, #479dff 0%, #ccf1f0 60%, #3f91f0 100%);
+    height: 3.5vh;
+    border-radius: 0.5vh;
+}
+
+.dark-time-track {
+    background: linear-gradient(to right, #c0ff84 0%, #82ff48 10%);
+}
+
+.time-mark {
+    background-color: rgb(175, 159, 159);
+    font-size: 10px;
+    height: 10px;
+    width: 2px;
+}
+
 
 .select {
     width: 100px;
