@@ -10,6 +10,7 @@ import { FaLink } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
 import 'react-datepicker/dist/react-datepicker.css';
+import '../assets/css/timezone.css'
 import { DndContext, closestCorners } from '@dnd-kit/core';
 import { SortableContext, useSortable, arrayMove, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
